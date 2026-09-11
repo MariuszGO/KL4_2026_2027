@@ -1,4 +1,9 @@
-table, td{
+table, td, th, caption{
     border: 1px solid;
+    border-collapse: collapse;
     
+}
+
+th{
+    background-color: antiquewhite;
 }

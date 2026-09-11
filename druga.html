@@ -51,17 +51,46 @@
     </ul>
 
     <table>
+        <caption>Nasza nowa tabela</caption>
+        <tr>
+            <th>1 kolumna</th> <th>2 kolumna</th> <th>3 kolumna</th>
+        </tr>
         <tr>
             <td>w1 k1</td> <td>w1 k2</td> <td>w1 k3</td>
         </tr>
          <tr>
-            <td>w2 k1</td> <td>w1 k2</td> <td>w1 k3</td>
+            <td>w2 k1</td> <td>w2 k2</td> <td>w2k3</td>
         </tr>
          <tr>
-            <td>w3 k1</td> <td>w1 k2</td> <td>w1 k3</td>
+            <td>w3 k1</td> <td>w3 k2</td> <td>w3 k3</td>
         </tr>
 
     </table>
+<br>
+<hr>
+
+
+<!--Przykład na colspan i rowspan
+colspan - łączy kolumny
+rowspan - łączy wiersze
+-->
+<table>
+            <tr>
+            <th>1 kolumna</th> <th>2 kolumna</th> <th>3 kolumna</th><th>2 kolumna</th> <th>5 kolumna</th>
+        </tr>
+        <tr>
+            <td>w1 k1</td> <td>w1 k2</td> <td colspan="3">w1 k3</td> 
+        </tr>
+         <tr>
+            <td>w2 k1</td> <td rowspan="2">w2 k2</td> <td>w2k3</td> <td>w1 k2</td> <td>w1 k3</td>
+        </tr>
+         <tr>
+            <td>w3 k1</td> <td>w3 k2</td> <td>w3 k3</td> <td>w1 k2</td>
+        </tr>
+
+
+
+</table>
 
 
 </body>
