@@ -7,3 +7,6 @@ table, td, th, caption{
 th{
     background-color: antiquewhite;
 }
+tr:hover{
+    background-color: cadetblue;
+}

@@ -87,11 +87,36 @@ rowspan - łączy wiersze
          <tr>
             <td>w3 k1</td> <td>w3 k2</td> <td>w3 k3</td> <td>w1 k2</td>
         </tr>
-
-
-
 </table>
 
+<br><br>
+<form>
+    <label for="imie">Podaj imie: </label>
+    <input type="text" id="imie" maxlength="20" size="10" placeholder="podaj"><br>
+
+    <label>Podaj wiek:
+        <input type="number" min="1" max="100">
+    </label><br>
+
+    <!-- Błędy  TAK NIE ROBIMY
+  
+    <label>Podaj wiek: </label> Label nie powiązany z polem typu input
+        <input type="number"><br> 
+        
+    Podaj wiek:  - brak label
+    <input type="number"> 
+  
+    -->
+
+    <label for="haslo">Podaj hasło</label>
+    <input type="password" id="haslo">
+
+    
+
+</form>
+
+<br>
+<br>
 
 </body>
 </html>
