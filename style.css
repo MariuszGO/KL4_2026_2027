@@ -61,11 +61,33 @@ header, header  p {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-a{ 
-    text-decoration: none;
-
+a{ color: rgb(0, 0, 0);
+   font-size: 2em;
+   text-decoration: none;
+   margin: 5px;
+    /*  marginesy zewnetrzne 
+    margin: 5px 10px 15px 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    */
+    padding: 5px;
 }
 
+a:hover{
+    color: steelblue;
+}
+
+a:active{
+    color: brown;
+}
+
+a:visited{
+    color:#ec51f1;
+}
+
+a:open{
+    color: blue;
+}
 
 
 
