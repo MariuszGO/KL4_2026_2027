@@ -1,0 +1,38 @@
+
+body{ display: grid;
+  width: 100%;
+  grid-template-areas:
+    "head head1"
+    "head s"
+    "b s"
+    "f f";
+  grid-template-columns: 30fr 70fr;
+
+}
+
+#naglowek1{
+    grid-area: head;
+    height: 300px;
+    background-color: aqua;
+}
+
+#naglowek2{
+    grid-area: head1;
+    height: 150px;
+    background-color: rgb(24, 58, 102);
+}
+aside{
+    grid-area: b;
+    height: 300px;
+    background-color: brown;
+}
+section{
+    grid-area: s;
+    height: 450px;
+    background-color: bisque;
+}
+footer{
+    grid-area: f;
+    height: 100px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,56 @@
+body{
+    display: grid;
+    width: 100%;
+    grid-template-areas: " head1 head1 head2 head3 "
+                          " a s1 s1 s1 "
+                          " a s2 s2 s2"
+                          " a s3 s3 s3"
+                          " f f f f";
+                          grid-template-columns: 20% 20% 30% 30%;
+                          grid-template-rows: 150px 100px 100px 100px 30px ;
+}
+
+
+#header1{
+    grid-area: head1;
+    background-color: aqua;
+   
+}
+#header2{
+    grid-area: head2;
+    background-color: rgb(9, 255, 0);
+    
+}
+#header3{
+    grid-area: head3;
+    background-color: rgb(255, 136, 0);
+    
+}
+
+aside{
+    grid-area: a;
+    background-color: bisque;
+   
+}
+#s1 {
+    grid-area: s1;
+    background-color: aquamarine;
+   
+}
+#s2 {
+    grid-area: s2;
+    background-color: rgb(131, 255, 127);
+    
+}
+#s3 {
+    grid-area: s3;
+    background-color: rgb(91, 166, 172);
+    
+}
+
+footer{
+    grid-area: f;
+    background-color: chocolate;
+    
+}
+

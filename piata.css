@@ -12,11 +12,14 @@ header{
     width: 20%;
     background-color: aquamarine;
     float: left;
+    overflow: clip;
+    text-decoration: wavy underline;
 }
 #n2{
     height: 300px;
     width: 20%;
-    background-color: rgb(29, 70, 56);
+    background-color: rgba(29, 70, 56, 0.986);
+    
     float: left;
 }
 aside{
@@ -39,9 +42,13 @@ section{
 }
 
 footer{
+    line-height: 50px;
     clear: both;
     height: 50px;
     float: left;
     width: 100%;
     background-color: darkgray;
+}
+a:hover{
+    color: white;
 }
