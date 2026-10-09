@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+}
+body{
+   
+    background-color: azure;
+}
+#strona{
+ display: flex;
+ flex-direction: row;
+}
+
+#lewa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#srodek{
+    
+    display: flex;
+    flex-direction: row;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: crimson;
+}
+
+nav{
+    width: 20%;
+    height: 800px;
+    background-color: darkblue;
+}
+
+main{
+    width: 50%;
+    height: 700px;
+}
+
+#m2{
+    background-color: burlywood;
+}
+
+#m1{
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: darkgreen;
+    width: 100%;
+    height: 100px;
+}
