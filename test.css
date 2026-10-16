@@ -1,0 +1,14 @@
+tr:nth-child(odd){
+    background-color: antiquewhite;
+
+}
+
+tr,td,table,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+tr:nth-child(odd):hover{
+    background-color: aqua;
+}

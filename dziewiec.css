@@ -1,0 +1,41 @@
+body{
+    
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
+
+
+section{
+    width: 10%;
+    height: 200px;
+    margin: 10px;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px dimgray;
+
+}
+
+section:nth-child(1){
+    background-color: rgb(215, 250, 232);
+}
+
+section:nth-child(2){
+    background-color: rgb(136, 98, 48);
+}
+
+section:nth-child(3){
+    background-color: rgb(20, 23, 167);
+}
+section:nth-child(4){
+    background-color: rgb(39, 187, 224);
+}
+
+
+
+section:hover{
+    background-color: rgb(5, 122, 68);
+    box-shadow: 10px 10px 10px dimgray;
+}
