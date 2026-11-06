@@ -115,6 +115,12 @@ if($zm1>0 || $zm2>0){
     echo "<br>przynajmniej jedna zmienna większa od 0";
 }
 
+$zmienna_a = 5;
+$zmienna_b = 2;
+$zmienna_w = $zmienna_a / $zmienna_b;
+
+echo "Wynik to $zmienna_w";
+
 
 ?>
 
